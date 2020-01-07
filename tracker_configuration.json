@@ -1,0 +1,6 @@
+
+{
+        "mapsApiKey": "AIzaSyDye15iebq9KVelAA9qX-EfzLNgQrpSRQE",
+        "databaseURL": "https://e-shuttle-tracker-base.firebaseio.com",
+        "simulation": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "shuttle-final-server",
+  "version": "1.0.0",
+  "description": "The server component for Transport Tracker",
+  "scripts": {
+    "main": "node main.js",
+    "prettier": "for file in *.js; do prettier --write --single-quote --bracket-spacing=false $file; done"
+  },
+  "author": "Vishwajeet Bhagyawant",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google/maps": "^1.0.2",
+    "@mapbox/polyline": "^1.1.0",
+    "asyncawait": "^3.0.0",
+    "bluebird": "^3.7.2",
+    "csv-parse": "^4.8.3",
+    "firebase-admin": "^8.9.0",
+    "moment": "^2.24.0",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "firebase": "^7.6.1",
+    "prettier": "^1.19.1"
+  }
+}
