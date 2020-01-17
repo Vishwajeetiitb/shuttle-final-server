@@ -17,9 +17,9 @@ exports.ReadData = class {
       'value',
       snapshot => {
         _async(() => {
-          let a = snapshot.val().E1.gps_raw;
-          let b = a.split(' ');
-          console.log(b[1] / 10000);
+          let a = snapshot.val();
+          let b = a['E1'].gps_raw.split(' ');
+        //   console.log(b[1] / 1000000);
         })().catch(err => {
           console.error(err);
         });

@@ -27,5 +27,5 @@ const {ReadData} = require('./read_data.js');
 const {snapToRoad} = require('./snap_to_road.js');
 
 new HeartBeat(timeRef, trackerConfig.simulation);
-// new snapToRoad(RawGpsRef, SnappedGpsRef, googleMapsClient);
+new snapToRoad(RawGpsRef, SnappedGpsRef, googleMapsClient);
 new ReadData(RawGpsRef);
